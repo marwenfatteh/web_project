@@ -1,0 +1,572 @@
+
+
+
+
+
+
+
+:root {
+  --Sand: #e1b382;
+  --Sand_Shadow: #c89666;
+  --Sand_Shadow_light: #d3ac88;
+--Night_Blue: #2d545e;
+
+--Night_Blue_Shadow: #12343b;
+--blue: #006f88;
+}
+
+
+
+
+
+
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    background-color: var(--Sand_Shadow_light);
+
+}
+
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    position: fixed;
+    background-color: var(--Night_Blue_Shadow);
+    
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    font-family: 'Dancing Script';
+    padding-left: 40px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 13px;
+    text-shadow: 2px 3px 2px var(--Sand_Shadow);
+    transition: 0.6s ease-in-out;
+}
+
+.logo:hover{
+    opacity: 0.2;
+    transform: scale(1.35);
+    transition: 0.3s ease-in-out;
+}
+
+nav {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color:var(--Sand_Shadow);
+}
+
+
+ul li a:active{
+    color: rgb(92, 5, 92);
+}
+
+/*ul li a:visited{
+    color: rgb(66, 16, 248);
+}*/
+
+
+
+.search{
+    width: 330px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 110px;
+
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid var(--Sand_Shadow);
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: var(--Sand_Shadow);
+    border: 2px solid var(--Sand_Shadow);
+    margin-top: 13px;
+    color: var(--Night_Blue_Shadow);
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:hover{
+    font-weight: bold;
+
+}
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline:none;
+}
+
+.content{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    color: var(--Night_Blue);
+    position: relative;
+    top: 150px;
+    padding-left: 100px;
+    float: left;
+
+}
+
+.agence0 {
+  height: 500px;
+  background-color: blue;
+    
+}
+
+.content span1{
+    font-family: cursive;
+    color: var(--blue);
+    text-decoration: underline;
+    
+} 
+
+span{
+    font-family: cursive;
+    color: var(--blue);
+    font-size: 30px;
+}
+
+.content .par{
+    padding-right: 150px;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing:1px;
+    line-height:40px;
+    margin-top: 10px;
+    margin-left: -200px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    
+    background: var(--Night_Blue_Shadow);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 260px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    font-family: cursive;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease; 
+}
+
+.cn:hover{
+    background-color: var(--blue)
+
+}
+.form{
+    width: 250px;
+    height: 370px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.13)  50%,rgba(0, 0, 0, 0.13) 50%);
+    position: absolute;
+    top: 230px;
+    left: 920px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    background-color: var(--Night_Blue);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid var(--Night_Blue);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.form ::placeholder{
+    color: white;
+    font-family: arial;
+}
+
+.btn1 {
+    width: 240px;
+    height: 40px;
+    background: var(--Night_Blue);
+    border:none;
+    margin-top:30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.btn1:hover{
+    background: var(--blue);
+}
+
+.btn1 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: 17px;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align:center;
+    color: white;
+}
+
+.form .link a{
+
+    text-decoration: none;
+    color: var(--Night_Blue);
+}
+
+.liw{
+    font-size: 17px;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align:center;
+    color: white;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.icon ion-icon{
+    color: white;
+    font-size: 29px;
+    padding-left: 5px;
+    padding-top: 8px;
+    margin-top: -15px;
+
+   
+}
+
+.icon ion-icon:hover{
+    color: var(--Night_Blue);
+    transition: 0.6s ease;
+   
+}
+.icon {display: flex;}
+
+
+
+#presentation {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: var(--Sand_Shadow_light);
+    padding: 10px 0px 100px 0;
+  }
+  #textt {
+    padding: 90px 20%;
+  }
+  #textt h2 {    
+    background-color: rgba(0, 0, 0, 0.13);
+    color: var(--Night_Blue_Shadow);  
+    font-family: cursive;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  #textt p{
+      background-color: rgba(0, 0, 0, 0.13);
+      opacity: 0.9;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+  }
+ 
+  #prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;  
+  }
+  .imagesPrestations h4 {
+      color: white;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+  }
+  .imagesPrestations img {
+    border-radius: 10px;
+  }
+  .imagesPrestations img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+  }
+
+  #agence {
+  
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1400px;
+    background-color: var(--Night_Blue);
+    padding: 0px;
+
+  }
+  #agence h2 {
+        background-color: var(--Night_Blue_Shadow);
+        margin-left:20% ;
+        margin-right:20% ;
+        padding-bottom: 40px;
+        color: var(--Sand_Shadow);  
+        font-family: cursive;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 2em;
+        font-style: italic;
+    }
+  #AHC {
+    background: url(../agence/ahc.jpg);
+  }
+  #ATC {
+    background: url(../agence/atc.jpg);
+  }
+  #AAE {
+    background: url(../agence/aae.jpg);
+  }
+  #AAS {
+    background: url(../agence/aas.jpg);
+  }
+  #agence li {
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 540px;
+    max-width: 550px;
+    float: left;
+    
+
+  }
+  #agence li:hover{
+      
+    transition: 0.4s ease-in-out;
+  }
+  #agence p {
+    height: 45px;
+    width: 265px;
+    background-color: var(--Sand_Shadow);
+    float:left;
+    margin: 50px -180px 0 -180px;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    
+  }
+  #agence p:hover{
+    opacity: 0.7;
+    transform: scale(1.35);
+    transition: 0.4s ease-in-out;
+
+  }
+  #agence #ATC, #agence #AAS {
+    float:right;
+  }
+  #AHC p, #AAE p {
+    float: right;
+    background-color: var(--Sand_Shadow);
+    margin-right: -180px;
+  }
+  /* *************** footer ************ */
+  footer {
+    background-image: url(10.jpg);
+    background-position: left;
+    background-size: cover;
+    background-color: #181818;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .contact input, textarea {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+  }
+  textarea {
+    height: 120px;
+  }
+ 
+  .contact button {
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+
+  }
+  .contact button:hover {
+    color: var(--Sand_Shadow);
+    background-color: var(--Night_Blue_Shadow);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    
+  }
+  #deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+  }
+  #copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+  }
+  #copyright {
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+  }
+    h1{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+}
+  #icons {
+    width: 50%;
+    text-align: right;
+  }
+  #icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #FFFAE1;
+  }
+  #icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+  }
+  
+  
+ 
+
+
+

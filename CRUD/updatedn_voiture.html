@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>TunCar Admin</title>
+        <link rel="stylesheet" href="../css/styleman.css">
+    </head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"><a href="../index.html">TunCar</a></h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <center> <li><a href="add_voiture.html">ADD VOITURES</a></li></center>
+                    <center> <li><a href="update_voiture.html">UPDATE VOITURE</a></li></center>
+                    <center> <li><a href="delete.html">SUPPRIMER VOITURE</a></li></center>
+                    <center><li><a href="affich_client.php">AFFICHER CLIENT</a></li></center>
+                    <center> <li><a href="delete_user.html">SUPPRIMER CLIENT</a></li></center>
+                
+            
+                </ul>
+            </div>
+            
+        </div>
+        <div class="form1">
+            <h3>UPDATE VOITURE</h3>
+    <form method="post" action="update_voiture.php" >
+        <center>
+        <BR>
+        <input type="text" name="marque"  placeholder="MARQUE">*
+        <BR>
+        <input type="text" name="modele"  placeholder="MODELE">*
+      <BR>
+        <input type="text" name="serie"  placeholder="SERIE">*
+        <BR>
+        
+            <input type="text" name="disp" placeholder="SET DISPONIBILITE (O/N)">←
+            <BR>
+             
+             <input type="number" name="prix"  placeholder="SET PRIX">←<br>
+        <button class="btn1" type="SUBMIT" value="add">UPDATE VOITURE </button>
+        <p>Cette voiture n'existe pas ✖</p>
+       
+    </center>
+    </form>
+</div>
+</body>
+
+
+
+</html>

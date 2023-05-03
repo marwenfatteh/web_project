@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>TunCar</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script langage="javascript" src="verifindex.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo"><a href="#">TunCar</a></h2>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">ACCEUIL</a></li>
+                        <li><a href="./voiture/voiture.html">VOITURES</a></li>
+                        <li><a href="./agence/agence.html">AGENCES</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="./espace client/Espaceclient.html">ESPACE CLIENT</a></li>
+                        <li><a href="./administration/Espaceadmin.html">ADMIN</a></li>
+                    </ul>
+                </div>
+                <div class="search"> 
+                  <form method="post" action="affiche.php">
+                    <input class ="srch" type="search" name="recherche" placeholder="Tapez..">
+
+                     <button class="btn" type="submit">Rechercher</button>
+                  </form>
+                </div>
+            </div>
+            
+            <div class="content">
+                 <h1>Qu'attendez-vous pour <br> &nbsp &nbsp louer une <span1><b>voiture</b></span1></h1>
+                 <h4 class="par" ><span><b>TunCar</b></span> offre ses services de location avec une sélection de véhicules de luxe<br>                          à des prix pas cher Vous êtes à la recherche d’une offre spéciale de location de voiture ?<br> Visitez <span><b>TunCar</b></span> et profitez de nos dernières prestations exceptionnelles<br> accessibles partout en Tunisie</h4> 
+                 <button class="cn"><a href="./espace client/Espaceclient.html">Rejoignez-nous</a></button>
+                 </div>
+                    <div class="form">
+                     <h2>Connectez-vous ici</h2>
+                     <form method="post" action="login.php">
+                     <input type="email" id="email" name="email" placeholder="Entrer votre email">
+                     <input type="password" id="mdp" name="mdp" placeholder="Entrer votre mot de passe">
+                     <button class="btn1" type="submit" onclick="return verifindex()">Connexion</button>
+                    </form>
+                     <p class="link">Vous n'avez pas de compte?<br>
+                     <a href="/Insciption/inscri.html">Inscrivez-vous </a>ici</a></p>
+                     <p class="liw">Connectez-vous avec</p>
+
+                        <div class="icon">
+                         <a href="https://www.facebook.com/">&nbsp<ion-icon name="logo-facebook"></ion-icon></a>
+                         <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+                         <a href="https://www.twitter.fr/"><ion-icon name="logo-twitter"></ion-icon></a>
+                         <a href="https://www.google.fr/"><ion-icon name="logo-google"></ion-icon></a>
+                         <a href="https://www.skype.com/"><ion-icon name="logo-skype"></ion-icon></a></center>
+                        </div>
+                     </div>       
+            </div>
+           
+
+            
+            <section id="agence">
+                <h2>Il est temps de découvrir nos agences...</h2>
+                  <div><li id="AHC"><a href="./agence/agence.html#AHC"><p>Agence Hammamet Centre</p></a></li></div>
+                  <div><li id="ATC"><a href="./agence/agence.html#ATC"><p>Aéroport Tunis Carthage</p></a></li></div>
+                  <div><li id="AAE"><a href="./agence/agence.html#AAE"><p>Agence Aéroport Enfidha</p></a></li></div>
+                  <div><li id="AAS"><a href="./agence/agence.html#AAS"><p>Agence Aéroport de Sfax</p></a></li></div>
+                
+              </section>
+              
+        </div>
+        
+        
+        
+        
+        <footer>
+            <h2 id="contact">Contactez-nous</h2>
+            <form class="contact">
+              <input placeholder="Nom">
+              <input placeholder="E-mail">
+              <textarea placeholder="Votre message ici..."></textarea>
+              <button>Envoyer</button>
+            </form>
+            <div id="deuxiemeTrait"></div>
+            <div id="copyrightEtIcons">
+              <div id="copyright">
+              <h1> Copyright ©2023 By <strong>Marwen Fatteh & Maher Ayechi</strong>. All Rights Reserved</h1>
+              </div>
+              <div id="icons">
+                <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+                <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+      
+              </div>
+            </div>
+            <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+          </footer>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Inscrivez-vous</title>
+        <link rel="stylesheet" href="../css/styleec.css">
+        <script langage="javascript" src="verifinscri.js"></script>
+       
+    </head>
+    <body>
+        <header>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo"><a href="index.html">TunCar</a></h2>
+                </div>
+                <div class="menu">
+                  <ul>
+                    <li><a href="#">ACCEUIL</a></li>
+                    <li><a href="../voiture/voiture.html">VOITURES</a></li>
+                    <li><a href="../agence/agence.html">AGENCES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="../espace client/Espaceclient.html">ESPACE CLIENT</a></li>
+                    <li><a href="../administration/Espaceadmin.html">ADMIN</a></li>
+                  </ul>
+                </div>
+                <div class="search"> 
+                  <form method="post" action="affiche.php">
+                    <input class ="srch" type="search" name="recherche" placeholder="Tapez..">
+
+                     <button class="btn" type="submit">Rechercher</button>
+                  </form>
+                </div>
+            </div>
+         </div>
+            </header>
+
+            <div class="espace">
+         
+
+          
+          <form class="form1" method="post" action="inscrire.php">
+            <center><h3>Inscrivez-vous</h3>
+            <p>Identifiez-vous maintenant!</p>
+            <input placeholder="Nom" name="nom" id="nom"><br>
+            <input placeholder="Prénom" name="prenom" id="prenom"><br>
+            <input type="email" name="email" id="email" placeholder="E-mail" ><br>
+            <input type="email" name="email2" id="email2" placeholder="Confirmer votre E-mail" ><br>
+            <input type="password" name="mdp" id="mdp" placeholder="Définir un mot de passe" ><br>
+            <input type="password" name="mdp2" id="mdp2" placeholder="Confirmer votre mot de passe" ><br>
+
+            <button class="btn2" type="submit" onclick="return verifinscri()">Créer votre compte</button></center>
+            <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+            <p class="liw">Connectez-vous avec</p>
+
+                        <div class="icon">
+
+                         <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                         <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+                         <a href="https://www.twitter.fr/"><ion-icon name="logo-twitter"></ion-icon></a>
+                         <a href="https://www.google.fr/"><ion-icon name="logo-google"></ion-icon></a>
+                         <a href="https://www.skype.com/"><ion-icon name="logo-skype"></ion-icon></a>
+                        </div>
+                     </div>  
+          </form>
+
+
+
+
+
+            </div>
+
+            <footer>
+                <h2 id="contact">Contactez-nous</h2>
+                <form class="contact">
+                  <input placeholder="Nom">
+                  <input placeholder="E-mail">
+                  <textarea placeholder="Votre message ici..."></textarea>
+                  <button>Envoyer</button>
+                </form>
+                <div id="deuxiemeTrait"></div>
+                <div id="copyrightEtIcons">
+                  <div id="copyright">
+                  <h1> Copyright <span>©2023</span>By <span>Marwen Fatteh & Maher Ayechi</span>. All Rights Reserved</h1>
+                  </div>
+                  <div id="icons">
+                    <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+                    <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+                    <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+          
+                  </div>
+                </div>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+              </footer>
+        
+</html>        

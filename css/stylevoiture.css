@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0; 
+ }
+ 
+
+ div.voituree {
+  padding-top:90px;
+  background:url(14.jpg) no-repeat;
+  background-size: cover;
+ }
+ 
+ .navbar{
+     width: 100%;
+     height: 75px;
+     margin: auto;
+     position: fixed;
+     background-color: rgba(0, 0, 0, 0.795);
+     
+ }
+ 
+ .icon{
+     width: 200px;
+     float: left;
+     height: 70px;
+ }
+ .icon a {
+    text-decoration: none;
+    color: white;
+}
+ 
+ .logo{
+     color: white;
+     font-size: 35px;
+     font-family: 'Dancing Script';
+     padding-left: 40px;
+     float: left;
+     padding-top: 10px;
+     margin-top: 13px;
+ 
+ }
+
+ 
+ .logo:hover{
+    opacity: 0.2;
+    transform: scale(1.35);
+    transition: 0.3s ease-in-out;
+}
+
+
+ nav {
+     width: 400px;
+     float: left;
+     height: 70px;
+ }
+ 
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color:red;
+}
+
+ul li a:active{
+    color: rgb(92, 5, 92);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 110px;
+
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid red;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: red;
+    border: 2px solid red;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(33, 7, 117);
+
+}
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline:none;
+}
+
+p {
+  color: black;
+font-family: cursive;
+font-size: 20px;
+padding: 10px;
+font-weight: bold;
+background-color: rgba(105, 105, 105, 0.274);
+}
+
+td{
+  padding-left: 100px;
+  padding-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+/* *************** footer ************ */
+footer {
+    background-image: url(10.jpg);
+    background-position: left;
+    background-size: cover;
+    background-color: #181818;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  .contact input, textarea {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+  }
+  textarea {
+    height: 120px;
+  }
+  .contact button {
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+
+  }
+  .contact button:hover {
+    background-color: #e55039;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  #deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+  }
+  #copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+  }
+  #copyright {
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+  }
+    h1{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+}
+  #icons {
+    width: 50%;
+    text-align: right;
+  }
+  #icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #FFFAE1;
+  }
+  #icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+  }
+  #table_carac {
+    padding:25px ;
+    padding-top: 0px;
+    margin-left:25% ;
+    margin-right:40px ;
+    position: relative;
+    text-align: center; 
+    border-radius: 50px;
+      }
+      th{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        text-decoration: none;
+        font-size:14px;
+        text-align: center;
+          color: rgb(0  , 14, 14);
+          font-family: cursive;
+          font-weight: bold;
+          transition: 0.2s ease-in-out;
+      }
+      

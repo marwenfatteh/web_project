@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Espace Admin</title>
+        <link rel="stylesheet" href="../css/stylea.css">
+        <script langage="javascript" src="../js/verif.js">
+        </script>
+       
+    </head>
+    <body>
+        
+        <header>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo"><a href="../index.html">TunCar</a></h2>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="../index.html">ACCEUIL</a></li>
+                        <li><a href="../voiture/voiture.html">VOITURES</a></li>
+                        <li><a href="../agence/agence.html">AGENCES</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="../espace client/Espaceclient.html">ESPACE CLIENT</a></li>
+                        <li><a href="Espaceadmin.html">ADMIN</a></li>
+                    </ul>
+                </div>
+                <div class="search"> 
+                  <form method="post" action="affiche.php">
+                    <input class ="srch" type="search" name="recherche" placeholder="Tapez..">
+
+                     <button class="btn" type="submit">Rechercher</button>
+                  </form>
+                </div>
+            </div>
+         </div>
+            </header>
+
+            <div class="espace">
+         
+
+          
+         <center><form class="form2" method="post" action="admin.php">
+           <h3>Espace Admin</h3>
+            <p>Identifiez-vous maintenant!</p>
+            <input type="email" id="email" placeholder="E-mail" name="email"><br>
+            <input type="password" id="mdp" placeholder="Mot de passe" name="mdp"><br><br>
+            <a href="#">Mot de passe oublié ?</a> <br>
+            <button class="btn1" type="submit" onclick="verifa()">Se connecter</button>
+          </form></center> 
+
+
+
+
+            </div>
+
+            <footer>
+                <h2 id="contact">Contactez-nous</h2>
+                <form class="contact">
+                  <input placeholder="Nom">
+                  <input placeholder="E-mail">
+                  <textarea placeholder="Votre message ici..."></textarea>
+                  <button>Envoyer</button>
+                </form>
+                <div id="deuxiemeTrait"></div>
+                <div id="copyrightEtIcons">
+                  <div id="copyright">
+                  <h1> Copyright <span>©2023</span>By <span>Marwen Fatteh & Maher Ayechi</span>. All Rights Reserved</h1>
+                  </div>
+                  <div id="icons">
+                    <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+                    <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+                    <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+          
+                  </div>
+                </div>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+              </footer>
+        
+</html>        

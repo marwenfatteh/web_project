@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Espace Client</title>
+        <link rel="stylesheet" href="../css/styleec.css">
+        <script langage="javascript" src="../js/verif.js">
+        </script>
+       
+    </head>
+    <body>
+        
+        <header>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo"><a href="index.html">TunCar</a></h2>
+                </div>
+                <div class="menu">
+                    <ul>
+                      <li><a href="#">ACCEUIL</a></li>
+                      <li><a href="../voiture/voiture.html">VOITURES</a></li>
+                      <li><a href="../agence/agence.html">AGENCES</a></li>
+                      <li><a href="#contact">CONTACT</a></li>
+                      <li><a href="../espace client/Espaceclient.html">ESPACE CLIENT</a></li>
+                      <li><a href="../administration/Espaceadmin.html">ADMIN</a></li>
+                    </ul>
+                </div>
+                <div class="search"> 
+                  <form method="post" action="affiche.php">
+                    <input class ="srch" type="search" name="recherche" placeholder="Tapez..">
+
+                     <button class="btn" type="submit">Rechercher</button>
+                  </form>
+                </div>
+            </div>
+         </div>
+            </header>
+
+            <div class="espace">
+         
+
+          
+          <form class="form2" method="post" action="espaceclient.php">
+           <h3>Espace client</h3>
+            <p>Vous avez commandé un véhicule et souhaitez en savoir plus sur l'état de votre dossier de réservation?<br> Identifiez-vous maintenant!</p>
+            <input id="np" name="nom" placeholder="Nom"><br>
+            <input id="np" name="prenom" placeholder="Prenom"><br>
+            <input type="email" id="email" name="email" placeholder="E-mail">*<br>
+            <input type="password" id="mdp" name="mdp" placeholder="Mot de passe">*<br>
+            <input id="numtel" name="numtel" placeholder="Numéro de Téléphone"><br>
+            <input id="ville" name="ville" placeholder="Ville"><br>
+            <textarea id="txt" name="msg" placeholder="Votre message ici..."></textarea><br>
+            <button class="btn1" type="submit" >ENVOYER</button>
+          </form>
+
+
+
+
+            </div>
+
+            <footer>
+               
+                <div id="deuxiemeTrait"></div>
+                <div id="copyrightEtIcons">
+                  <div id="copyright">
+                  <h1> Copyright <span>©2023</span>By <span>Marwen Fatteh & Maher Ayechi</span>. All Rights Reserved</h1>
+                  </div>
+                  <div id="icons">
+                    <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+                    <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+                    <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+          
+                  </div>
+                </div>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+              </footer>
+        
+</html>        

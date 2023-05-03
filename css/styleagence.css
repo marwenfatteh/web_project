@@ -1,0 +1,283 @@
+
+
+:root {
+  --Sand: #e1b382;
+  --Sand_Shadow: #c89666;
+  --Sand_Shadow_light: #d3ac88;
+--Night_Blue: #2d545e;
+
+--Night_Blue_Shadow: #12343b;
+--blue: #006f88;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0; 
+ }
+ 
+
+ #agence{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-color: var(--Sand_Shadow_light);
+
+ }
+ 
+ .navbar{
+  width: 100%;
+  height: 75px;
+  margin: auto;
+  position: fixed;
+  background-color: var(--Night_Blue_Shadow);
+  
+}
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color: white;
+  font-size: 35px;
+  font-family: 'Dancing Script';
+  padding-left: 40px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 13px;
+  text-shadow: 2px 3px 2px var(--Sand_Shadow);
+  transition: 0.6s ease-in-out;
+}
+
+.logo:hover{
+  opacity: 0.2;
+  transform: scale(1.35);
+  transition: 0.3s ease-in-out;
+}
+
+
+nav {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 40px;
+  margin-top: 35px;
+  font-size: 15px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: arial;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+  color:var(--Sand_Shadow);
+}
+
+
+ul li a:active{
+  color: rgb(92, 5, 92);
+}
+
+/*ul li a:visited{
+  color: rgb(66, 16, 248);
+}*/
+
+
+
+.search{
+  width: 330px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 110px;
+
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid var(--Sand_Shadow);
+  margin-top: 13px;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: var(--Sand_Shadow);
+  border: 2px solid var(--Sand_Shadow);
+  margin-top: 13px;
+  color: var(--Night_Blue_Shadow);
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.btn:hover{
+  font-weight: bold;
+
+}
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline:none;
+}
+
+h1 {
+    font-family: cursive;
+    padding-left: 100px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    color: var(--Night_Blue);
+    text-transform: uppercase;
+    font-size: large;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+h2{
+    color: var(--Night_Blue_Shadow);
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 90px;
+}
+h2:hover {
+    color: white;
+    transition: 0.4s;
+    cursor: pointer ;
+}
+
+li p{
+color: var(--Sand_Shadow);
+font-family: cursive;
+font-size: 20px;
+padding: 10px;
+font-weight: bold;
+background-color: var(--Night_Blue);
+margin-right: 25%;
+margin-left: 25%;
+}
+
+
+
+
+
+
+
+
+
+/* *************** footer ************ */
+footer {
+  background-image: url(10.jpg);
+  background-position: left;
+  background-size: cover;
+  background-color: #181818;
+  color: #FFFAE1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.contact input, textarea {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+}
+
+.contact button {
+  font-size: 1.5em;
+  background-color: #FFFAE1;
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-family: 'Advent Pro', sans-serif;
+  border-radius: 8px;
+
+}
+.contact button:hover {
+  color: var(--Sand_Shadow);
+  background-color: var(--Night_Blue_Shadow);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  
+}
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: #FFFAE1;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: #FFFAE1;
+}
+  h1{
+  font-family: 'Times New Roman';
+  font-size: 15px;
+  padding-left: 30px;
+  letter-spacing: 2px;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color: #FFFAE1;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
